@@ -109,7 +109,7 @@ modules:
         size: 319340366
         x-checker-data:
           type: html
-          url: https://www.wps.com/whatsnew/linux/
+          url: https://mirrors.163.com/ubuntukylin/
           version-pattern: \W(\d+\.\d+\.\d+\.\d+)\W
           url-template: >-
-            https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/$version3/wps-office_$version.XA_amd64.deb
+            https://mirrors.163.com/ubuntukylin/pool/partner/wps-office_$version_amd64.deb
