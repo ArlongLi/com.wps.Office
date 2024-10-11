@@ -3,6 +3,8 @@ set -e
 shopt -s failglob
 FLATPAK_ID="${FLATPAK_ID:-com.wps.Office}"
 
+git clone https://github.com/flathub/shared-modules.git
+
 mkdir -p deb-package export/share
 
 ar p wps-office.deb data.tar.xz | tar -xJf - -C deb-package
